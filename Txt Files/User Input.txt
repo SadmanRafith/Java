@@ -1,0 +1,50 @@
+
+package Tutorials;
+
+import java.util.Scanner;                                       //(input) we have to declare this under package
+
+public class Input {
+    
+    public static void main(String[] args) {                    // psvm tab
+        
+        Scanner input = new Scanner(System.in);                 //
+        int number;
+        
+        System.out.print("Enter any number : ");
+        number = input.nextInt();                               // how to take input
+        
+        String name = "Tahsin Hasib";                           // in Java String S uppercase
+        String FirstName;
+        
+        System.out.println("Number is : " + number);
+        System.out.println("String is : " + name);
+        
+        String FirstName;
+        System.out.print("\nEnter your first name : ");
+        
+        FirstName = input.next();                               // this next(); prints the string before space 
+        
+        System.out.println("\nYour first name is : " + FirstName);
+
+
+	/*
+	double num1;
+        
+        System.out.print("Enter the value of num1 : ");
+        num1 = input.nextDouble();
+        
+        System.out.println(num1);	
+	*/
+
+
+        
+        /*
+        String SecondName;
+        System.out.print("\nEnter your second name : ");
+        SecondName = input.nextLine();                          // this necxtLine(); prints the whole string after space          
+        
+        System.out.print("\nYour second name is : " + SecondName);
+        */
+        
+    }
+}

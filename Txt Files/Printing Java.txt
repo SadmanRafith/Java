@@ -1,0 +1,33 @@
+
+
+In Java, you can simply use
+--------------------------------
+System.out.println(); or
+
+System.out.print(); or
+
+System.out.printf();
+--------------------------------
+
+
+Difference between println(), print() and printf()
+
+print() - It prints string inside the quotes.
+println() - It prints string inside the quotes similar like print() method. 
+            Then the cursor moves to the beginning of the next line.
+printf() - It provides string formatting (similar to printf in C/C++ programming).
+
+------------------------------------------------------------------------------------------
+EXAMPLE :
+------------------------------------------------------------------------------------------
+
+class Output {
+    public static void main(String[] args) {
+    	
+        System.out.println("1. println ");
+        System.out.println("2. println ");
+    	
+        System.out.print("1. print ");
+        System.out.print("2. print");
+    }
+}

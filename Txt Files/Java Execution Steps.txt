@@ -1,0 +1,19 @@
+
+
+package Tutorials;
+
+public class ExecutionSteps {
+    
+    public static void main(String[] args) {
+        System.out.println("Hello World");
+    }
+    
+}
+
+/* java file exectutes in 5 steps. First of all what we write in notepad or
+   text editor is known as a source code. Later on when we run that file,
+   Java Compiler known as javac compiles it and makes a class file of that
+   file. On that time, the class file is known as byte file. The byte file
+   is machine readable. Humans cannot read that file. Lastly, that byte file
+   gets executed.
+*/

@@ -1,0 +1,28 @@
+
+
+package Tutorials;
+
+public class PersonTest {
+    public static void main(String[] args) {
+        
+        // escape sequence---------------------------
+        
+       System.out.println("Tahsin Hasib \n01711102730 \nBsc in CSE");
+       System.out.println("Disha \tJU");
+       System.out.println("Disha \tJU");   //ctrl + shift + downArw
+       
+       System.out.println("\"Software Engineering\""); 
+       System.out.println("\'Applied Chemistry\'");
+       System.out.println("\\Valorant");
+    }
+}
+
+
+// \t    Insert a tab in the text at this point.
+// \b    Insert a backspace in the text at this point.
+// \n	 Insert a newline in the text at this point.
+// \r	 Insert a carriage return in the text at this point.
+// \f	 Insert a form feed in the text at this point.
+// \'	 Insert a single quote character in the text at this point.
+// \"  	 Insert a double quote character in the text at this point.
+// \\	 Insert a backslash character in the text at this point.

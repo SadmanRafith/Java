@@ -1,0 +1,35 @@
+
+package Tutorials;
+
+import java.util.Scanner;                         // alt + Enter + Enter
+
+public class AreaOfCircle {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);   // put cursor on Scanner then (alt + Enter + Enter)
+                                                  // to call import java util Scanner.
+        
+        double radius,
+                area;
+        
+        System.out.print("\nEnter radius : ");
+        radius = input.nextDouble();
+        
+        area = 3.1416 * radius * radius;
+        
+        System.out.println("The area of the circle is : " +area  +" sq units");
+        
+        /*
+             we have to use + then "--msg--" in order to print a variable
+             between two message.
+        */
+        
+        /*
+        Having space before or after + symbol, does not affect the output. 
+        For example, in above program, both statements given below produces 
+        same output.
+
+            System.out.println("value = "+ num
+            System.out.println("value = "   +            num);
+        */
+    }
+}

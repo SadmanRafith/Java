@@ -1,0 +1,34 @@
+
+package Tutorials;
+
+public class DataTypes {
+    public static void main(String[] args) {
+        boolean b;
+        char c;
+        short s;
+        int i = 12;                       // dynamic initialization
+        float f = 3.5f;                   // in case of float we need to add f
+                                          // after the number
+        double d = 10.2;            // no need to add d like float    
+        
+        b = true;
+        System.out.println(b);
+        
+        /* when printing the value of a variable with a message we need to
+           us the + sign after out message in double cotation.
+        */
+  
+        //boolean
+        System.out.println("The value of b : " + b); 
+        //character
+        c = 'a';
+        System.out.println("The value of c : " + c);
+        
+        // integer
+        System.out.println("The value of i : " + i);
+        //float
+        System.out.println("The value of f : " + f);
+        //double
+        System.out.println("The value of d : " + d);
+    }
+}

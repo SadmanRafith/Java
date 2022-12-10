@@ -1,0 +1,23 @@
+
+import java.lang.*;
+import java.lang.Math;
+
+
+
+public class MathSinCosTan {
+   public static void main(String[] args){
+
+    double a = Math.toRadians(45);
+    double sinValue = Math.sin(a);
+    System.out.println("The value is : "+sinValue);
+
+    double tanValue = Math.tan(Math.toRadians(45));
+    System.out.println("The value of tan 45 : "+tanValue);
+
+   } 
+}
+
+/*
+ * we have to pass radian values into the method, otherwise it
+ * wont work
+ */

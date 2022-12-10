@@ -1,0 +1,37 @@
+
+package Tutorials;
+
+public class DataTypes2 {
+    public static void main(String[] args) {
+        boolean b;
+        char c;
+        short s = 1234;             // works as an integer but short
+        int i = 12;                       // dynamic initialization
+        float f = 3.5f;                   // in case of float we need to add f
+                                          // after the number
+        double d = 10.2;            // no need to add d like float    
+        
+        b = true;
+        System.out.println(b);
+        
+        /* when printing the value of a variable with a message we need to
+           us the + sign after out message in double cotation.
+        */
+  
+        //boolean
+        System.out.printf("The value of b : %b \n", b); 
+        //character
+        c = 'a';
+        System.out.printf("The value of c : %c \n", c);
+        
+        //short
+        System.out.printf("The value of s : %d \n", s);
+        
+        // integer
+        System.out.printf("The value of i : %d \n", i);
+        //float
+        System.out.printf("The value of f : %.3f \n", f);     //%.nf for n places
+        //double
+        System.out.printf("The value of d : %.2f \n", d);     // for double %f
+    }
+}

@@ -1,0 +1,26 @@
+
+import java.lang.*;
+import java.util.Scanner;
+
+public class Ex6{
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+
+		int num;
+		int res = 0;
+		System.out.print("Input a number : ");
+		num = input.nextInt();
+
+		for(int i=1; i<=10; ++i){
+			res = num*i;
+			System.out.println(num+" X "+i+" = "+res);
+		}
+
+		/*
+		while printing multiple variables in one println
+		function, we have to add '+' sign both before and
+		after the print message.
+		*/
+
+	}
+}

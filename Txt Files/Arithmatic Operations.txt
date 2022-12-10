@@ -1,0 +1,49 @@
+
+package Tutorials;
+import java.util.Scanner;
+
+public class ArithmaticOperators {
+    public static void main(String[] args) {
+        
+       Scanner input = new Scanner(System.in);
+        
+       int num1, num2, result;
+       double result2;
+       num1 = 20; 
+       num2 = 7;
+       
+       result = num1 + num2;
+       System.out.println("The summation is : " + result);
+       result = num1 - num2;
+       System.out.println("The subtraction is : " + result);
+       result = num1 * num2;
+       System.out.println("The multiplication is : " + result);
+       result2 = (double) num1 / num2;                            // type casting
+       System.out.println("The divison is : " + result2);
+       result = num1 % num2;
+       System.out.println("The remainder is : " + result);
+       
+       
+       int a, b, answer;
+       System.out.print("\nEnter the values of a and b : ");
+       a = input.nextInt();
+       b = input.nextInt();
+       
+       answer = a + b;
+       System.out.println("The answer is : " + answer);
+       answer = a - b;
+       System.out.println("The answer is : " + answer);
+       answer = a * b;
+       System.out.println("The answer is : " + answer);
+       answer = a / b;
+       System.out.println("The answer is : " + answer);
+       answer = a % b;
+       System.out.println("The answer is : " + answer);
+       
+    }
+}
+
+
+/*
+  5 types of arithmatic operators (+,-,*,/,%)
+*/

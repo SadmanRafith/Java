@@ -1,0 +1,48 @@
+
+package Tutorials;
+
+
+public class UnaryOperator {
+    
+    public static void main(String[] args) {
+        int x = 10;
+        int result;
+        
+        int y = 25;
+        int inc;
+        
+        int z = 10;
+        int dec;
+        
+        result = +x;
+        System.out.println("The result for (+x) is : " +result);
+        
+        result = -x;
+        System.out.println("The result for (-x) is : " +result);
+        
+        inc = y++;
+        System.out.println("The result for (y++) is : " +inc);
+        
+        inc = ++y;
+        System.out.println("The result for (++y) is : " +inc);
+        
+        dec = z--;
+        System.out.println("The result for (z--) is : " +dec);
+        
+        dec = --z;
+        System.out.println("The result for (--z) is : " +dec);
+        
+        
+    }
+    
+}
+
+
+/*
+    + unary plus which helps to convert any number into positive
+    - unary plus which helps to convert any number into negative
+*/
+
+/*
+    
+*/
